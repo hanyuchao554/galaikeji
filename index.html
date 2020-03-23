@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>格莱科技</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<!--移动端头部导航-->
+		<nav class="navbar navbar-default hidden-lg hidden-md" role="navigation">
+		    <div class="container-fluid">
+		    <div class="navbar-header">
+		        <button type="button" class="navbar-toggle" data-toggle="collapse"
+		                data-target="#example-navbar-collapse">
+		            <span class="sr-only">切换导航</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		        </button>
+		        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="格莱科技"/></a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+		        <ul class="nav navbar-nav">
+		        	<li><a href="#">网站首页</a></li>
+		            <li><a href="#">服务范围</a></li>
+					<li><a href="#">客户案例</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">资讯中心</a></li>
+					<li><a href="#">联系我们</a></li>
+		        </ul>
+		    </div>
+		    </div>
+		</nav>
+		<!--PC端头部-->
+		<div class="container-fluid hidden-sm hidden-xs">
+			<div class="row p-header">
+				<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-lg-2 p-logo">
+						<h1><a href="index.html"><img src="img/logo.png" alt="格莱科技"/></a></h1>
+					</div>
+					<div class="col-md-8 col-lg-8 p-nav">
+						<ul>
+							<li class="active"><a href="javascript:void(0)">网站首页</a></li>
+							<li><a href="javascript:void(0)">服务范围</a></li>
+							<li><a href="javascript:void(0)">客户案例</a></li>
+							<li><a href="javascript:void(0)">关于我们</a></li>
+							<li><a href="javascript:void(0)">资讯中心</a></li>
+							<li><a href="javascript:void(0)">联系我们</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2 col-lg-2 hidden-sm hidden-xs p-tel">
+						<i class="glyphicon glyphicon-phone-alt"><em>027-87229009</em></i>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!--轮播图-->
+		<div class="container-fluid">
+			<div class="row hidden-lg hidden-md m-margin"></div>
+			<div class="row p-margin">
+				<div id="myCarousel" class="carousel slide">
+				    <!-- 轮播（Carousel）指标 -->
+				    <ol class="carousel-indicators">
+				        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				        <li data-target="#myCarousel" data-slide-to="1"></li>
+				        <li data-target="#myCarousel" data-slide-to="2"></li>
+				    </ol>   
+				    <!-- 轮播（Carousel）项目 -->
+				    <div class="carousel-inner">
+				        <div class="item active">
+				            <img src="img/banner01.png" alt="First slide">
+				        </div>
+				        <div class="item">
+				            <img src="img/banner02.png" alt="Second slide">
+				        </div>
+				        <div class="item">
+				            <img src="img/banner01.png" alt="Third slide">
+				        </div>
+				    </div>
+				    <!-- 轮播（Carousel）导航 -->
+				    <a class="carousel-control left" href="#myCarousel" 
+				        data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i>
+				    </a>
+				    <a class="carousel-control right" href="#myCarousel" 
+				        data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i>
+				    </a>
+				</div>
+			</div>
+		</div>
+		<!--正文-->
+		<div class="container main">
+			<div class="row">
+				<!--服务范围-->
+				<div class="p-services">
+					<h2 class="p-hd"><img src="img/services_title.png" alt="服务范围"/></h2>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 column1">
+						<i class="glyphicon glyphicon-print"></i>
+						<h3>设备采购服务</h3>
+						<p class="hidden-sm hidden-xs">格莱用较少的成本提高了其所获得更为高效的IT产品及服务，我们全方位的解决方案帮助客户提高运营效率，同时实现企业的经营目标。</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 column2">
+						<i class="glyphicon glyphicon-hdd"></i>
+						<h3>应用及数据服务</h3>
+						<p class="hidden-sm hidden-xs">格莱致力于为客户提供卓越的技术服务，帮助他们确保数据库运行的稳定性，提高数据库运行效率、降低运行风险以及维护成本。</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 column3">
+						<i class="glyphicon glyphicon-tasks"></i>
+						<h3>服务器维护</h3>
+						<p class="hidden-sm hidden-xs">格莱能提供对各种主流操作系统的维护和支持服务，专业的技术支持服务将增强您系统的稳定性，减少故障发生率，360°全方位守护您的服务器安全。</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 column4">
+						<i class="glyphicon glyphicon-cloud"></i>
+						<h3>企业网络部署</h3>
+						<p class="hidden-sm hidden-xs">格莱企业网部署主营业务范围主要涵盖计算机系统构架设计及咨询服务,构成了完整的IT网络业务链,为用户提供全方位的网络系统服务。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--客户案例-->
+		<div class="container p-project">
+			<h2 class="p-hd"><img src="img/project_title.png" alt="客户案例"/></h2>
+		</div>
+		<div class="container-fluid p-project-bg">
+			<div class="container p-project-list">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+					<img src="img/bz01.png"/>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+					<img src="img/bz01.png"/>
+				</div>
+				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+					<img src="img/bz01.png"/>
+				</div>
+				<div class="col-lg-3 col-md-3  hidden-sm hidden-xs">
+					<img src="img/bz01.png"/>
+				</div>
+				<div class="col-lg-3 col-md-3  hidden-sm hidden-xs">
+					<img src="img/bz01.png"/>
+				</div>
+				<div class="col-lg-3 col-md-3  hidden-sm hidden-xs">
+					<img src="img/bz01.png"/>
+				</div>
+				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+					<img src="img/bz01.png"/>
+				</div>
+				<div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+					<img src="img/bz01.png"/>
+				</div>
+			</div>	
+		</div>
+		<!--关于我们-->
+		<div class="container about">
+			<div class="row">
+				<h2 class="p-hd"><img src="img/about_title.png" alt="关于我们"/></h2>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/comp01.jpg"/>
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/comp02.jpg"/>
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/comp03.jpg"/>
+				</div>
+				<div class="col-lg-3 col-md-3">
+					<img src="img/comp04.jpg"/>
+				</div>
+			</div>
+			<div class="about-more">
+				<i class="glyphicon glyphicon-plus-sign"></i>
+			</div>
+			<div class="company-info">
+					<div class="col-lg-4  col-md-4">
+						<img src="img/logo-black.png"/>
+					</div>
+					<div class="col-lg-8  col-md-8">
+						<p>	格莱信息科技有限公司，专注于为企业提供网络系统服务、软件外包、电子商务、信息化咨询服务、互联网人才外包服务等互联网综合解决方案的高科技互联网企业。系redhat河南地区唯一授权“红帽学院推广中心” 。</p>
+						<p>为助力我国互联网人才培养，现致力于面向全国高校、职业院校进行产、学、研校企深度合作。凭借公司深厚的行业背景，与院校深度结合，形成全新的互联网教育体系和科研体系。现与信阳职业技术学院、开封文化艺术职业学院、鹤壁职业技术学院、三门峡职业技术学院、南阳农业职业学院、驻马店职业技术学院、濮阳职业技术学院等多家高校达成合作，共建校企合作专业。该体系致力于打通人才供应端和人才需求端，培养出一系列适应市场要求的创新型、实用型互联网人才，以满足社会需求。</p>
+						<dl>
+							<dt>格莱成长历程：</dt>
+							<dd>1998年品牌诞生；</dd>
+							<dd>2000年成为SCO UNIX授权教育中心 成为CISCO 第一家和唯一的一家民营CISCO网络学院；</dd>
+							<dd>2001年成功举办第一届国际IT认证教育研讨会，Lotus、CISCO、CIW、Prometric等公司总裁到会祝贺；</dd>
+							<dd>2002年 北京地区唯一一家授权教育中心，成为Checkpoint公司开通国内第一个远程考试系统 ；</dd>
+							<dd>2003年在中国IT认证教育企业品牌影响力调查中荣获"2002年度十大影响力教育品牌"奖；</dd>
+							<dd>2004年与华中科技大学武昌分校联合推出” 百日千才“教学基地；</dd>
+							<dd>2005年荣获湖北省教育机构总评榜IT职业类”最受欢迎教育机构“称号；</dd>
+							<dd>2006年荣获2006年湖北省教育机构展评IT教育类”最佳教育质量奖“；</dd>
+							<dd>2007年荣获“2006-2007全国信息技术人才教育基地”称号；</dd>
+							<dd>2008年与北京瑞星公司建立“瑞星安全实验室”；</dd>
+							<dd>2009年与阿里巴巴旗下阿里软件合作、完善、推广SAAS软件平台；</dd>
+							<dd>2011年正式推出国内最大的网店创业教育项目  e店通；</dd>
+							<dd>2012年与信阳职业技术学院签订校企联合办学协议；</dd>
+							<dd>2013年与开封文化艺术职业学院签订校企联合办学协议；</dd>
+							<dd>2014年与鹤壁职业技术学院签订校企联合办学协议；</dd>
+							<dd>2015年与三门峡职业技术学院签订校企联合办学协议；</dd>
+							<dd>2016年与红帽软件（北京）有限公司达成合作；</dd>
+							<dd>2017年与阿里云达成战略合作，成为阿里云指定认证中心，引入阿里云课程国际认证体系；</dd>
+							<dd>未来期待您的参与...</dd>
+						</dl>
+					</div>
+				</div>
+		</div>
+		<!--资讯中心-->
+		<div class="container-fluid news-list">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4  col-md-4">
+						<h3>公司动态<span>News</span></h3>
+						<ul>
+							<li><a href="#"><span>2017-10-26</span>格莱科技与湖北美堡斯教育达成战略合作并签约成功。</a></li>
+							<li><a href="#"><span>2017-10-26</span>与曹妃甸职业技术学院达成合作办学。</a></li>
+							<li><a href="#"><span>2017-10-26</span>湖北文理学院理工学院领导莅临指导工作、洽谈合作</a></li>
+							<li><a href="#"><span>2017-10-26</span>格莱科技与湖北美堡斯教育达成战略合作并签约成功</a></li>
+							<li><a href="#"><span>2017-10-26</span>学生国庆返校突发重大疾病，格莱科技齐心捐款期盼</a></li>
+							<li><a href="#"><span>2017-10-26</span>了解企业需求完善课程体系，格莱科技2017年秋季企业</a></li>
+							<li><a href="#"><span>2017-10-26</span>河南省暑期双师培训武汉行实践交流活动圆满结束</a></li>
+							<li><a href="#"><span>2017-10-26</span>湖北开放职院领导莅临南校区视察工作。</a></li>
+							<li><a href="#"><span>2017-10-26</span>华为华中区相关负责人莅临格莱科技武汉总部考察工</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4  col-md-4">
+						<h3>技术资讯<span>Course</span></h3>
+						<ul>
+							<li><a href="#"><span>2017-10-26</span>机器学习的时代来临，人类应该做点什么？</a></li>
+							<li><a href="#"><span>2017-10-26</span>NVIDIA助力人脸识别新技术</a></li>
+							<li><a href="#"><span>2017-10-26</span>如何保护自家WiFi无线网络安全。</a></li>
+							<li><a href="#"><span>2017-10-26</span>你的数据库安全吗？</a></li>
+							<li><a href="#"><span>2017-10-26</span>Web设计过程中的成败经验。</a></li>
+							<li><a href="#"><span>2017-10-26</span>情绪低落？没事，让计算机来帮你！</a></li>
+							<li><a href="#"><span>2017-10-26</span>移动设计八原则。</a></li>
+							<li><a href="#"><span>2017-10-26</span>高清透明柔性面板 LG引领面板技术新方向。</a></li>
+							<li><a href="#"><span>2017-10-26</span>红帽Google联手 共同推动Docker发展。</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4  col-md-4">
+						<h3>行业要闻<span>Industry</span></h3>
+						<ul>
+							<li><a href="#"><span>2017-10-26</span>从“勒索”病毒的爆发看网络安全人才培养。</a></li>
+							<li><a href="#"><span>2017-10-26</span>网安人才培养：非一日之功。</a></li>
+							<li><a href="#"><span>2017-10-26</span>95后就业，最爱互联网＋。</a></li>
+							<li><a href="#"><span>2017-10-26</span>软件业“跑”出产业融合新图景。</a></li>
+							<li><a href="#"><span>2017-10-26</span>“互联网+物流”成经济转型升级务实之举。</a></li>
+							<li><a href="#"><span>2017-10-26</span>“互联网＋”推动IT人才全行业增长。</a></li>
+							<li><a href="#"><span>2017-10-26</span>做好网络安全需构建网络安全生态链。</a></li>
+							<li><a href="#"><span>2017-10-26</span>景气指数报告：互联网行业持续发力。</a></li>
+							<li><a href="#"><span>2017-10-26</span>公共WiFi的监管不能放松。</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--联系我们-->
+		<div class="container-fluid message">
+			<div class="container">
+				<div class="msg-content col-lg-5 col-md-5">
+					<form class="form-inline" role="form">
+						<h4>告诉我们您的需求</h4>
+						<h5>TELL US WHAT YOU NEED</h5>
+						<div class="form-group">
+							<input type="text" class="form-control" id="name1" placeholder="请输入您的名称">
+							<input type="text" class="form-control" id="name2" placeholder="请输入您的QQ">
+						</div>
+						 <div class="form-group msg-box">
+							<textarea class="form-control" id="name" placeholder="请输入您的留言" ></textarea>
+						</div>
+					  <button type="submit" class="btn btn-default">发送</button>
+					  <span class="tips">我们将在1个工作日内回复，资料会保密处理。</span>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid link">
+			<div class="container">
+				<div class="row">
+					<div class="link-content col-lg-5 col-md-5">
+						<h4>LINK</h4>
+						<h5>KEYWORD</h5>
+						<span>
+							<a href="http://yun.glkjjt.com/forum.php" target="_blank">格莱科技云平台</a>
+							<a href="http://www.yinheedu.com" target="_blank">湖北银河信息技术学院</a>
+							<dl>
+								<dt>格莱科技</dt>
+								<dd>专注于为企业提供网络系统服务、软件外包、电子商务、信息化咨询服务、
+互联网人才外包服务等互联网综合解决方案的高科技互联网企业。</dd>
+							</dl>
+						</span>
+					</div>
+					<div class="counseling col-lg-7 col-md-7">
+						<div class="row p-counseling hidden-sm hidden-xs">
+							<a href="#" class="qq col-lg-4 col-md-4">在线咨询</a>
+							<a href="#" class="weibo col-lg-4 col-md-4">新浪微博</a>
+							<a href="#" class="wechat col-lg-4 col-md-4">微信二维码</a>
+						</div>
+						<div class="row m-counseling hidden-lg hidden-md">
+							<a href="#" class="qq col-lg-4 col-md-4">在线咨询</a>
+							<a href="#" class="weibo col-lg-4 col-md-4">新浪微博</a>
+							<a href="#" class="wechat col-lg-4 col-md-4">微信二维码</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--版权-->
+		<div class="container-fluid footer">
+			<div class="container">
+				<div class="row hidden-sm hidden-xs p-footer">
+					<span class="col-lg-6 col-md-6">Copyright &copy; 2017 格莱科技 保留公司所有权利。</span>
+					<span class="col-lg-6 col-md-6">
+						<a href="#">关于我们</a>  |  <a href="#">联系我们</a>  |  <a href="#">网站地图</a>  |  <a href="#">格莱统计</a>
+					</span>
+				</div>
+				<div class="row hidden-lg hidden-md m-footer">
+						<span>Copyright &copy; 2017 格莱科技 保留公司所有权利。</span> <br />
+					<span>
+						<a href="#">关于我们</a>  |  <a href="#">联系我们</a>  |  <a href="#">网站地图</a>  |  <a href="#">格莱统计</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
